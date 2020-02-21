@@ -1,0 +1,20 @@
+{
+  "name": "slack_acroknow",
+  "version": "1.0.0",
+  "description": "Slack bot for discovering and creating definitions for Indeed acronyms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "acronyms",
+    "definitions"
+  ],
+  "author": "Tatiana Quintana",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^5.7.0",
+    "axios": "^0.19.2",
+    "slackbots": "^1.2.0"
+  }
+}
